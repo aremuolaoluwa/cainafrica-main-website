@@ -1,0 +1,29 @@
+display:
+- spacing between title and content for all projects (ProjectData)//done
+
+- DT, Jeida Project, Akaeze, Library, Monthly FD
+
+cover photo:
+- ICT4U (ProjectICT)
+
+writeup
+- Jeida content & remove the first, third, and last photos (ProjectJeida)::: done
+/
+//change all images (ProjectTUT) ::: done
+//Akaeze Summer Program (heading - ProjectAkaeze & change the pictures and video)::: done
+
+//christmas benevolence (update: writeup, impact numbers, videos, and pictures)::: done
+
+//change second pricture for career enrichment (projectCareer) ::: done
+
+//add one more image for unstuck project and correct grammatical error under first image (ProjectUnstuck)
+
+//change content and pictures for library initiative ::: done
+
+//management staff separated from educational staff (dropdown and content)::: done
+
+//all projects duplicated under gallery and specific pictures to view
+
+//donate (account name: cain educational and medical foundation; remove the picture and stack items in a row)
+
+//remove CAIN @ 10 page

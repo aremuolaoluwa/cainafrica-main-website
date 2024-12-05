@@ -1,0 +1,75 @@
+body::-webkit-scrollbar-track
+{
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    -webkit-box-shadow: inset 0 0 5rem white;
+    /* background-color: #F5F5F5; */
+}
+
+body::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background-color: #000;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+/* tr:nth-child(even) {
+  background-color: #ff0000;
+  color: white;
+} */
+
+.donate_button {
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #ff0000;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 190px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.donate_button:hover {
+  color: red;
+}
+
+.donate_button:active {
+  color: red;
+}
+
+.donate_button__text {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+  font-size: xx-large;
+}
+
+.donate_button__icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+  @media (max-width: 768px){
+    .social-icons {
+      width: 70%;
+      margin: 0 auto
+    }
+  }

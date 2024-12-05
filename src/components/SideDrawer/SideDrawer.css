@@ -1,0 +1,46 @@
+.side-drawer{
+    height: 100%;
+    width: 60%;
+    background: #ff0000;
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: 200;
+    ;
+    /* border: 1px solid white; */
+}
+
+.side-drawer ul{
+    height: 80%;
+    margin-top: 3.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.side-drawer li,
+.side-drawer span span li{
+    text-align: right;
+    margin: 0.5rem 0;    
+    padding:0.15rem;
+    padding-right: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.side-drawer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active{
+    color: black;
+}
+
+@media(min-width: 769px){
+    .side-drawer{
+        display:none;
+    }
+}
