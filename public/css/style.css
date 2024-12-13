@@ -1846,11 +1846,18 @@ body, html {
 
 @media (min-width: 320px) and (max-width: 360px) {
 
-    .section-content-items {
-        width: 100%;
-        max-width: 100%;
-        display: inline-block;
+    .section-container {
+        max-width: 90%;
+    }
+
+    .mission-section {
+        max-width: 95%;
         margin: 0 auto;
+    }
+
+    .section-content-items {
+        min-width: 100%;
+        display: inline-block;
         text-align: center;
     }
 
@@ -1901,17 +1908,25 @@ body, html {
     }
 
     .programs-section-container-first-row-items {
-        max-width: 100%;
         flex-direction: column;
+        justify-self: center;
+        overflow: hidden;
         gap: 20px;
     }
 
     .programs-section-container-first-row-items-1 {
-        max-width: 90%;
         margin: 0 auto;
     }
 
+    .programs-section-container-paragraph-text {
+        width: 95%;
+    }
+
     /* Achievement */
+
+    .achievement-secion {
+        margin: 0 auto;
+    }
 
     .achievement-section-container-text-heading {
         width: 100%;
@@ -1925,6 +1940,12 @@ body, html {
     }
 
     /* Testimonial */
+
+    .testimonial {
+        max-width: 98%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
 
     .testimonial-content {
         width: 90%;
@@ -1940,6 +1961,11 @@ body, html {
     }
 
     /* Impact */
+
+    .impact {
+        max-width: 95%;
+        margin: 0 auto;
+    }
 
     .impact-container {
         width: 100%;
@@ -1989,7 +2015,7 @@ body, html {
         background-position: right;
         object-fit: contain;
         background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/gift.png);
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/gift.png);
+	    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/gift.png);
     }
     
     .gift-content {
@@ -2035,6 +2061,7 @@ body, html {
         margin: 0 auto;
     }
 
+
     .news-content {
         margin-left: auto;
         margin-right: auto;
@@ -2046,6 +2073,11 @@ body, html {
 
     .section-third-item {
         margin-bottom: 0;
+    }
+
+    iframe {
+        width: 98%;
+        margin: 0 auto;
     }
 
     /* Partners & Sponsors */
@@ -2253,6 +2285,15 @@ body, html {
 
     .donate-image {
         height: 100vh;
+        border: none;
+    }
+
+    aside {
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: 100%;
     }
 
     .donate-quote {
