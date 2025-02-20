@@ -88,15 +88,15 @@ const Home = (props) => {
         <div className="programs-section-container">
             <div className="programs-section-container-heading section-heading">Our Core Interventions</div>
             <div className="programs-section-container-first-row-items">
+            <div className="programs-section-container-first-row-items-1">
+                    <div className="programs-section-container-first-row-items-second-image item-top-image"><img src="https://s2.svgbox.net/materialui.svg?ic=computer&color=000" width="82" height="82"/></div>
+                    <div className="programs-section-container-first-row-items-first-text-heading text-heading">FREE <span className="heading-black-text">Digital Skills Training</span></div>
+                    <div className="programs-section-container-first-row-items-first-text programs-section-container-paragraph-text">We equip underprivileged African students with high-demand digital skills, preparing them to excel in today’s competitive, tech-driven world.</div>
+                </div>
                 <div className="programs-section-container-first-row-items-1">
                     <div className="programs-section-container-first-row-items-first-image item-top-image"><img src="./assets/images/chalkboard-user.svg" alt="" width="82" height="82"/></div>
                     <div className="programs-section-container-first-row-items-first-text-heading text-heading">FREE <span className="heading-black-text">Daily Tutorials</span></div>
                     <div className="programs-section-container-first-row-items-first-text programs-section-container-paragraph-text">We offer FREE daily Mathematics and English tutorials, empowering students in underserved African communities with essential skills for academic excellence.</div>
-                </div>
-                <div className="programs-section-container-first-row-items-1">
-                    <div className="programs-section-container-first-row-items-second-image item-top-image"><img src="https://s2.svgbox.net/materialui.svg?ic=computer&color=000" width="82" height="82"/></div>
-                    <div className="programs-section-container-first-row-items-first-text-heading text-heading">FREE <span className="heading-black-text">Digital Skills Training</span></div>
-                    <div className="programs-section-container-first-row-items-first-text programs-section-container-paragraph-text">We equip underprivileged African students with high-demand digital skills, preparing them to excel in today’s competitive, tech-driven world.</div>
                 </div>
                 <div className="programs-section-container-first-row-items-1">
                     <div className="programs-section-container-first-row-items-third-image item-top-image"><img src="https://s2.svgbox.net/hero-solid.svg?ic=library&color=000000" width="82" height="82"/></div>
@@ -202,7 +202,16 @@ const Home = (props) => {
             <div className="impact-container">
                 <div className="impact-text-content">
                     <div className="impact-heading">
-                        <div className="section-heading">Over a decade of service, <br/>our impact in numbers</div>
+                        <div className="section-heading impact-section-heading">Over a decade of service, <br/>our impact in numbers
+                        <div class="report-container">
+                            <div class="notification">
+                                    <img src="./assets/images/notification-icon.png"></img>
+                            </div>
+                            <div className="report">
+                                <a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024 <br/> Annual Report <b>HERE</b></a>
+                            </div>
+                        </div>
+                        </div>
                         <div className="impact-items">
                             {/* <!-- impact Row One --> */}
                             <div className="impact-item-first-row">
@@ -253,6 +262,7 @@ const Home = (props) => {
         </div>
     </section>
     {/* <!-- Impact section ends here --> */}
+
     {/* <!--Gift section starts here  --> */}
     <section className="gift-section">
         <div className="gift-container programs-section-container">

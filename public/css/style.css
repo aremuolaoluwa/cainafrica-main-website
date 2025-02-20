@@ -60,8 +60,7 @@ body, html {
     src: url('../fonts/helvetica/helveticanowtext-bolditalic-demo.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
-}  
-
+}
 
 .header-image{
     background-image: url(../assets/images/TopBackground2.JPG);
@@ -256,7 +255,7 @@ body, html {
     width: 60%;
     text-wrap: wrap;
     align-self: center;
-    margin-left: 60px;
+    margin-left: 7rem;
 } 
 
 .upper-text {
@@ -1149,6 +1148,13 @@ body, html {
     position: relative;
 }
 
+.impact-section-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #impact-heading {
     font-size: 2.7rem;
     font-weight: bold;
@@ -1157,8 +1163,31 @@ body, html {
     line-height: 55px;
 }
 
+.report-container {
+    display: flex;
+    align-items: center;
+}
+.report {
+    background-color: red;
+    width: 273px;
+    padding: 10px;
+    margin-left: .5em;
+    border-radius: 5px;
+    text-align: center;
+    justify-items: flex-end;
+    font-size: 16px;
+}
+
+.report a {
+    text-decoration: none;
+}
+
+.impact-items {
+    width: 80%;
+}
+
 .impact-text-content {
-    width: 956px;
+    width: 100%;
 }
 
 .impact-item-first-row {
@@ -1891,6 +1920,10 @@ body, html {
         max-width: 100%;
     }
 
+    .img-text {
+        margin-left: 5rem;
+    }
+
     /* Core Interventions */
 
     .programs-section-container {
@@ -2172,6 +2205,10 @@ body, html {
     .section-content-second-container {
         width: 100%;
         text-align: left;
+    }
+
+    .img-text {
+        margin-left: 5rem;
     }
 
 
