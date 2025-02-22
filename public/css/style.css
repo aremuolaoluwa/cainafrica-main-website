@@ -2000,6 +2000,40 @@ body, html {
         margin: 0 auto;
     }
 
+    .impact-section-heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .notification img {
+        width: 25px;
+        height: inherit;
+    }
+
+    .report-container {
+        width: 100%;
+        margin-bottom: .6em;
+        display: flex;
+        align-items: center;
+    }
+    .report {
+        background-color: red;
+        width: 100%;
+        padding: none;
+        margin-left: .5em;
+        border-radius: 5px;
+        text-align: center;
+        justify-items: flex-end;
+        font-size: 12px;
+    }
+
+    .report br {
+        display: none;
+    }
+
     .impact-container {
         width: 100%;
     }
@@ -2173,6 +2207,8 @@ body, html {
 
     /* All Headings Ends Here */
 
+    /* Mission section starts */
+
     .mission-section, .section-content-items {
         width: 100%;
         display: flex;
@@ -2238,6 +2274,41 @@ body, html {
     }
 
     .achievement-section-container-text-heading br {
+        display: none;
+    }
+
+    .impact-section-heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .notification img {
+        width: 25px;
+        height: inherit;
+    }
+
+    .report-container {
+        width: 100%;
+        margin-bottom: .6em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .report {
+        background-color: red;
+        width: 70%;
+        padding: none;
+        margin-left: .5em;
+        border-radius: 5px;
+        text-align: center;
+        justify-items: flex-end;
+        font-size: 12px;
+    }
+
+    .report br {
         display: none;
     }
 
