@@ -1648,8 +1648,8 @@ body, html {
 
 .left-container {
     border: 2px solid red;
-    width: 30%;
-    margin: 5rem 40rem 6rem 6rem;
+    width: 28%;
+    margin: 5rem 6rem;
     border-radius: 1rem;
     padding: 2rem;
     /* line-height: 25px; */

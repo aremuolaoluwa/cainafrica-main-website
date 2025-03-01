@@ -57,7 +57,7 @@ const DonateParent = (props) => {
         </div>
       </div>
 
-      <aside class="section-container">
+        <aside class="section-container">
                 <div class="left-container">
                     <div class="container-items">
                         <div class="container-heading">empower underprivileged african children with your donation</div>
@@ -105,7 +105,7 @@ const DonateParent = (props) => {
                         </form>
                     </div> --> */}
                 </div>
-            </aside>
+        </aside>
 
       <section id="giving">
         <div class="container section-container">
