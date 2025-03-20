@@ -61,7 +61,7 @@ const ProjectChris = (props) => {
           <b>A Continuing Mission</b>
           <br />
           <br />
-          Building on the success of the inaugural 2020 edition, we continued the Christmas Benevolence Project in 2021, 2022, and 2023, expanding our reach and impact each year. Thanks to the generous support of donors and volunteers, we were able to assist more families annually, providing not only essential food supplies but also gifts that brightened the holiday season for many. Year after year, this initiative grew stronger, touching the lives of even more families who would have otherwise faced the despair of hunger during a season meant for joy.
+          Building on the success of the inaugural 2020 edition, we continued the Christmas Benevolence Project in 2021, 2022, 2023, and 2024, expanding our reach and impact each year. Thanks to the generous support of donors and volunteers, we were able to assist more families annually, providing not only essential food supplies but also gifts that brightened the holiday season for many. Year after year, this initiative grew stronger, touching the lives of even more families who would have otherwise faced the despair of hunger during a season meant for joy.
           <br />
           <br />
           As we move forward, our goal is to make the 50/50 Christmas Benevolence Project a steadfast annual event, mirroring the importance of our other significant programs. We are committed to making this project a yearly intervention, with bigger goals to reach more than 50 families each holiday season. With the rising number of families slipping below the poverty line and grappling with hunger, our mission is to extend hope and ensure no family is left to face Christmas in despair.

@@ -23,7 +23,7 @@ const ProjectFD = (props) => {
                     <PostParagraph>
                         As part of our unwavering commitment to supporting underprivileged communities, we organize a monthly food drive aimed at alleviating hunger among those struggling to make ends meet. Currently, we are partnered with Sandra Duke Catering, a reputable catering service that shares our vision of providing relief to those in need.
                         <br /><br />
-                        Since the inception of the program, we have reached more than 288 individuals and 68 families, highlighting the tangible impact of our efforts. Each month, we identify and support multiple individuals facing significant hardships by providing them with carefully selected food items designed to sustain them and alleviate their struggles.
+                        Since the inception of the program, we have reached more than 608 individuals from 136 families, highlighting the tangible impact of our efforts. Each month, we identify and support multiple individuals facing significant hardships by providing them with carefully selected food items designed to sustain them and alleviate their struggles.
                         <br /><br />
                         We believe everyone should have access to basic necessities like food, and we are dedicated to bridging this gap. Our gratitude extends to Sandra Duke Catering for their support, and we invite other stakeholders, organizations, and individuals to explore our various projects and programs at CAIN, all aimed at empowering the underprivileged and equipping them with the tools for success and a comfortable life.
                         <br /><br />

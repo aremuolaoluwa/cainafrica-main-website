@@ -125,7 +125,7 @@ const Home = (props) => {
                 <div className="achievement-section-container-text">
                     <div className="achievement-section-container-text-heading section-heading">What have <br/>we done with <br/>your help?</div>
                     <div className="achievement-section-container-text-paragraph">
-                         We’ve invested over <span className="red-text">$200,000</span> to bring more than 13 transformative projects to life, impacting over <span className="red-text">10,000 underprivileged people</span> across seven under-resourced African communities. In Lagos's largest community, home to over 2 million residents, we established a state-of-the-art <span className="red-text">educational resource center</span> that provides access to cutting-edge learning resources. In Jeida, a rural village near Abuja with a population of 1,600, we collaborated with other organizations to establish the <span className="red-text">first school,</span> creating new opportunities for children to thrive and pursue their dreams.
+                         We’ve invested <span className="red-text">$240,000+</span> to bring more than 13 transformative projects to life, impacting over <span className="red-text">14,285 underprivileged people</span> across seven under-resourced African communities. In Lagos's largest community, home to over 2 million residents, we established a state-of-the-art <span className="red-text">educational resource center</span> that provides access to cutting-edge learning resources. In Jeida, a rural village near Abuja with a population of 1,600, we collaborated with other organizations to establish the <span className="red-text">first school,</span> creating new opportunities for children to thrive and pursue their dreams.
                     </div>
                 </div>
             </div>
@@ -217,14 +217,14 @@ const Home = (props) => {
                             <div className="impact-item-first-row">
                                 <div className="impact-item-1 impact-item impact-item">
                                     <div className="impact-number">
-                                        <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>10,000+ </p>
+                                        <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>14,285+ </p>
                                         <div className="impact-personnel">Beneficiaries</div>
                                     </div>
                                     <div className="impact-para-text">Over 10,000 lives transformed through our free educational programs, digital skill acquisition initiatives, and community development efforts.</div>
                                 </div>
                                 <div className="impact-item-2 impact-item">
                                     <div className="impact-number">
-                                        <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>10,000+ </p>
+                                        <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>12,000+ </p>
                                         <div className="impact-personnel">Volunteer hours</div>
                                     </div>
                                     <div className="impact-para-text">Dedicated to empowering underprivileged individuals in underserved African communities, transforming lives through selfless service.</div>
