@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import CainWhiteLogo from "../images/CainWhiteLogo.png";
 import { InlineFollowButtons } from "sharethis-reactjs";
+import { Link } from "react-router-dom";
 
 const FooterBox = styled.div`
   width: 100%;
@@ -134,14 +135,17 @@ const Footer = () => {
           <p style={{ marginBottom: 0 }}>
             Subscribe to our{" "}
             <strong>
-              <a
-                href="http://eepurl.com/hEB4fn"
+              {/* <a
+                href="/newsletter"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 Newsletter here
-              </a>
+              </a> */}
+              <Link to="/newsletter" style={{ textDecoration: "none" }}>
+              Newsletter here
+              </Link>
             </strong>
           </p>
         </MailBox>
