@@ -37,6 +37,7 @@ import GalleryResourceCenter from "./components/GalleryResourceCenter";
 import ProjectUnstuck from './components/ProjectUnstuck.js';
 import CareerEnrichment from './components/CareerEnrichment.js';
 import Newsletter from './components/Newsletter.js';
+import NewsletterSuccess from './components/NewsletterSuccess.js';
 
 import DonateParent from './components/DonateParent';
 
@@ -218,6 +219,10 @@ const App = () => {
            <Route 
             path='/newsletter'
             render = {(props)=> <Newsletter {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+           <Route 
+            path='/confirmation'
+            render = {(props)=> <NewsletterSuccess {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route
             path="/partners-sponsors"
