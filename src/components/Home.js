@@ -263,6 +263,43 @@ const Home = (props) => {
     </section>
     {/* <!-- Impact section ends here --> */}
 
+    {/* Award section starts */}
+
+    <section className="awards section-container">
+        <div className="award-container">
+            <div className="award-heading-outer">
+                <div className="award-heading-inner">
+                    <div className="top-heading">Our Awards</div>
+                    <div className="sub-heading"><strong>Our <span className="red-text inner-lower-text"><i>Award-winning</i></span> journey</strong></div>
+                </div>
+            </div>
+            <div className="award-content">
+                <div className="award-rosette">
+                    <img src="../assets/images/award.png" alt="Award Rosette"></img>
+                    <div className="award-rosette-text">
+                        <div className="top-rosette-text">winner</div>
+                        <div className="lower-rosette-text rosette-1">Gov. Babajide <br/>Sanwo-Olu Award <br/>for Social Impact, <br/><strong>2025</strong></div>
+                    </div>
+                </div>
+                <div className="award-img-border">
+                    <div className="award-img award-img-1"></div>
+                </div>
+                <div className="award-rosette">
+                    <img src="../assets/images/award.png" alt="Award Rosette"></img>
+                    <div className="award-rosette-text">
+                        <div className="top-rosette-text">top 20</div>
+                        <div className="lower-rosette-text rosette-2">The Luminary Award <br/>for changemakers,  <br/><strong>2024</strong></div>
+                    </div>
+                </div>
+                <div className="award-img-border">
+                    <div className="award-img award-img-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {/* Award section ends */}
+
     {/* <!--Gift section starts here  --> */}
     <section className="gift-section">
         <div className="gift-container programs-section-container">
