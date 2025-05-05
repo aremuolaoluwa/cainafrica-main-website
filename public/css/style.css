@@ -2085,6 +2085,11 @@ body, html {
         margin: 0 auto;
     }
 
+    .impact-items {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .impact-section-heading {
         width: 100%;
         display: flex;
@@ -2161,15 +2166,20 @@ body, html {
 
     /* Award section starts */
 
-    .award-container {
-        width: auto;
-        /* margin: 0 auto; */
-        display: flex;
-        flex-direction: column;
+    .awards {
+        margin: 0 auto;
     }
 
     .award-heading-outer {
         width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .sub-heading {
+        margin-top: .3rem;
     }
 
     .award-content {
@@ -2416,6 +2426,31 @@ body, html {
     .report br {
         display: none;
     }
+
+    /* Award section starts */
+
+    .awards {
+        margin: 0 auto;
+    }
+
+    .award-heading-outer {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .sub-heading {
+        margin-top: .3rem;
+    }
+
+    .award-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Award section ends */
 
     /* GIFT SECTION */
 
