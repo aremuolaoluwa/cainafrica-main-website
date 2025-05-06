@@ -1644,6 +1644,15 @@ body, html {
     height: 315px;
 }
 
+.img-media-container-0 {
+    width: 400px;
+    background-image: url(../assets/images/award_news.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000;
+}
+
 .img-media-container-1 {
     width: 400px;
     background-image: url(../assets/images/10.jpg);

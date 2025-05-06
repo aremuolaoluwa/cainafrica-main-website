@@ -316,12 +316,22 @@ const Home = (props) => {
         </div>
     </section>
     {/* <!-- Gift section ends here --> */}
+
      {/* <!-- News and Insights section --> */}
     <section className="news-and-insights section-container programs-section-container">
         <div className="news-and-insights-section-heading section-heading">News and Insights</div>
         <div className="news-section-row news-first-row-item">
-            {/* <!-- <div className="first-row-items"></div> --> */}
+            {/* First item in the first row */}
             <div className="section-first-item section-item">
+                <div className="media-container img-media-container-0"></div>
+                <div className="news-content">
+                    <div className="news-heading">CAIN Educational Foundation wins Lagos Governor’s Social Impact Award.</div>
+                    <div className="news-text">In a landmark achievement for grassroots innovation, impact, and leadership, CAIN Educational Foundation has been awarded the Governor’s Award for Social Impact at the esteemed Lagos Leadership Summit.</div>
+                    <div className="news-link"><a href="https://guardian.ng/news/cain-educational-foundation-wins-lagos-governors-social-impact-award/" target="_blank">Read More</a></div>
+                </div>
+            </div>
+            {/* Second item in the first row */}
+            <div className="section-second-item section-item">
                 <div className="media-container img-media-container-1"></div>
                 <div className="news-content">
                     <div className="news-heading">CAIN Africa empowers underprivileged students with game-changing AI education.</div>
@@ -329,8 +339,8 @@ const Home = (props) => {
                     <div className="news-link"><a href="https://guardian.ng/features/cain-africa-empowers-underprivileged-students-with-game-changing-ai-education/" target="_blank">Read More</a></div>
                 </div>
             </div>
-            {/* <!-- Second item in the first row --> */}
-            <div className="section-second-item section-item">
+            {/* <!-- Third item in the first row --> */}
+            <div className="section-third-item section-item">
                 <iframe
                     width="560" height="315"src="https://www.youtube.com/embed/udveCSO-6ys?si=J5F6DacwZPbUGusH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
@@ -339,8 +349,10 @@ const Home = (props) => {
                     <div className="news-link"><a href="https://www.youtube.com/watch?v=udveCSO-6ys" target="_blank">Watch Now</a></div>
                 </div>
             </div>
-            {/* <!-- Third item in the first row --> */}
-            <div className="section-third-item section-item">
+        </div>
+        {/* <!-- Second row --> */}
+        <div className="news-section-row second-row">
+            <div className="section-first-item section-item">
                 <iframe
                     width="560" height="315" src="https://www.youtube.com/embed/XE9BF76RCc4?si=FuFyQYG2k6Kx3-kJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
@@ -349,9 +361,7 @@ const Home = (props) => {
                     <div className="news-link"><a href="https://www.youtube.com/watch?v=XE9BF76RCc4" target="_blank">Watch Now</a></div>
                 </div>
             </div>
-        </div>
-        {/* <!-- Second row --> */}
-        <div className="news-section-row second-row">
+            {/* <!-- Second item in the second row --> */}
             <div className="section-first-item section-item">
                 <div className="media-container img-media-container-2"></div>
                 <div className="news-content">
@@ -360,7 +370,7 @@ const Home = (props) => {
                     <div className="news-link"><a href="https://www.vanguardngr.com/2024/10/cain-africas-ict4u-on-mission-to-empower-10000-underprivileged-students-to-lead-digital-future/" target="_blank">Read More</a></div>
                 </div>
             </div>
-            {/* <!-- Second item in the second row --> */}
+            {/* <!-- Third item in the second row --> */}
             <div className="section-second-item section-item">
                 <iframe className="media-container"
                     width="560" height="315" src="https://www.youtube.com/embed/nVgPYQ91_pA?si=9W3eIUMgYGbnILfS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -368,15 +378,6 @@ const Home = (props) => {
                 <div className="news-content">
                     <div className="news-text">Our Founder and CEO, <b>May Asagba,</b> featured on <b>ACT Pod</b> to discuss how CAIN Africa is making a difference through quality education.</div>
                     <div className="news-link"><a href="https://youtu.be/nVgPYQ91_pA?si=wqTlnL5rCV2a_ktV" target="_blank">Watch Now</a></div>
-                </div>
-            </div>
-            {/* <!-- Third item in the first row --> */}
-            <div className="section-third-item section-item">
-                <div className="media-container img-media-container-3"></div>
-                <div className="news-content">
-                    <div className="news-heading">Private sector to boost employability skills of 1000 youths</div>
-                    <div className="news-text">Determined to help young people develop employability skills for the workplace, Metanoia Africa and CAIN Africa partnered with Jobberman to provide free soft skills training for 1000 young Africans.</div>
-                    <div className="news-link"><a href="https://businessday.ng/news/article/private-sector-to-boost-employability-skills-of-1000-youths/" target="_blank">Read More</a></div>
                 </div>
             </div>
         </div>

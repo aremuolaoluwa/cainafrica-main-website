@@ -38,12 +38,13 @@ const WhoWeAre = (props) => {
 
       <MidSection>
         <MidParagraphOne>
-          <h2 style={{ margin: "0.5rem", fontSize: "2.5rem" }}>WHO WE ARE</h2>
+          <h2 style={{ margin: "0.5rem", fontSize: "2.5rem" }}>OUR MISSION</h2>
           <h4
             style={{ color: "red", margin: "0.5rem", fontSize: "1.25rem" }}
           >
             Our mission is to empower underprivileged students in underserved African communities by providing access to quality education, enabling them to break free from poverty and compete on a global scale.
           </h4>
+          
 
           <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
             CAIN Education Foundation, a 501(c)(3) non-profit organization based in Lagos, Nigeria, was established in 2013 by a passionate group of young adults dedicated to empowering underprivileged Africans.
