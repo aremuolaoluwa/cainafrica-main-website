@@ -382,6 +382,7 @@ const Home = (props) => {
             </div>
         </div>
     </section>
+    
     {/* <!-- PARTNERS SECTION --> */}
     <section className="partners-section section-container programs-section-container">
         <div className="section-heading partner-heading">Partners and Sponsors</div>
