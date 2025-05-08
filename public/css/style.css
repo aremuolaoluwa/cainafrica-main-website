@@ -1662,6 +1662,15 @@ body, html {
     border: 1px solid #000;
 }
 
+.img-media-container-x {
+    width: 400px;
+    background-image: url(../assets/images/newnow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000;
+}
+
 .img-media-container-2 {
     width: 400px;
     background-image: url(../assets/images/9.jpg);
@@ -1671,13 +1680,13 @@ body, html {
     border: 1px solid #000;
 }
 
-.img-media-container-3 {
+/* .img-media-container-3 {
     width: 400px;
     background-image: url(../assets/images/newspaper.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 .news-link, .news-link a {
     color: red;

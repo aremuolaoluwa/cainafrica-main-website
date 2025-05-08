@@ -352,6 +352,16 @@ const Home = (props) => {
         </div>
         {/* <!-- Second row --> */}
         <div className="news-section-row second-row">
+            {/* First item in second row */}
+            <div className="section-first-item section-item">
+                <div className="media-container img-media-container-x"></div>
+                <div className="news-content">
+                    <div className="news-heading">CAIN Africa’s CEO Selected for The NewNow Young Leaders, 2025 Cohort.</div>
+                    <div className="news-text">May Asagba is named as one of ten trailblazing, impactful leaders from the Global South selected for the prestigious Fellowship to shift the paradigm ofor how leaders worldwide drive change through system thinkimg and collective action.</div>
+                    <div className="news-link"><a href="https://www.oneyoungworld.com/thenewnow" target="_blank">Read More</a></div>
+                </div>
+            </div>
+            {/* <!-- Second item in the second row --> */}
             <div className="section-first-item section-item">
                 <iframe
                     width="560" height="315" src="https://www.youtube.com/embed/XE9BF76RCc4?si=FuFyQYG2k6Kx3-kJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -361,23 +371,13 @@ const Home = (props) => {
                     <div className="news-link"><a href="https://www.youtube.com/watch?v=XE9BF76RCc4" target="_blank">Watch Now</a></div>
                 </div>
             </div>
-            {/* <!-- Second item in the second row --> */}
+            {/* <!-- Third item in the second row --> */}
             <div className="section-first-item section-item">
                 <div className="media-container img-media-container-2"></div>
                 <div className="news-content">
                     <div className="news-heading">CAIN Africa’s ICT4U: On a mission to empower 10,000 underprivileged students to lead a digital future</div>
                     <div className="news-text">As Sub-Saharan Africa heads toward a future where 230 million jobs will require digital skills by 2030 (UNDP), bridging the digital divide has become more urgent.</div>
                     <div className="news-link"><a href="https://www.vanguardngr.com/2024/10/cain-africas-ict4u-on-mission-to-empower-10000-underprivileged-students-to-lead-digital-future/" target="_blank">Read More</a></div>
-                </div>
-            </div>
-            {/* <!-- Third item in the second row --> */}
-            <div className="section-second-item section-item">
-                <iframe className="media-container"
-                    width="560" height="315" src="https://www.youtube.com/embed/nVgPYQ91_pA?si=9W3eIUMgYGbnILfS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>
-                <div className="news-content">
-                    <div className="news-text">Our Founder and CEO, <b>May Asagba,</b> featured on <b>ACT Pod</b> to discuss how CAIN Africa is making a difference through quality education.</div>
-                    <div className="news-link"><a href="https://youtu.be/nVgPYQ91_pA?si=wqTlnL5rCV2a_ktV" target="_blank">Watch Now</a></div>
                 </div>
             </div>
         </div>
