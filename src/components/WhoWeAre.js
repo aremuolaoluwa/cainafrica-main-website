@@ -36,7 +36,7 @@ const WhoWeAre = (props) => {
         </TextWrapper>
       </TopImage>
 
-      <MidSection>
+      <MidSection style={{marginBottom: "8rem"}}>
         <MidParagraphOne style={{height: "100vh"}}>
           <h2 style={{ margin: "0.5rem", fontSize: "2rem" }}>Our Mission</h2>
           <h4
@@ -57,7 +57,7 @@ const WhoWeAre = (props) => {
             At the heart of our foundation lies the belief that everyone deserves access to quality education, regardless of socioeconomic status. Since our inception, we have prioritized providing underserved African communities with access to quality education.
           </p>
         </MidParagraphOne>
-        <PostIframe
+        <PostIframe style={{marginTop: "3rem"}}
           width="560"
           height="315"
           src="https://www.youtube.com/embed/ILc2lnyRgik"
