@@ -112,11 +112,11 @@ const Footer = () => {
                 padding: 8, // padding within buttons (INTEGER)
                 profiles: {
                   // social profile links for buttons
-                  twitter: "cainafrica",
-                  facebook: "cainafrica",
-                  instagram: "cainafrica",
-                  linkedin: "company/catering-to-africans-in-need/",
-                  youtube: "/channel/UCFI55OCmrLlN28M5wDPBNxQ",
+                  twitter: "https://x.com/cainafrica",
+                  facebook: "https://web.facebook.com/cainafrica?_rdc=1&_rdr",
+                  instagram: "https://www.instagram.com/cainafrica/",
+                  linkedin: "https://www.linkedin.com/company/catering-to-africans-in-need/",
+                  youtube: "https://www.youtube.com/channel/UCFI55OCmrLlN28M5wDPBNxQ",
                   vk: "placeholder",
                 },
                 radius: 15, // the corner radius on each button (INTEGER)
