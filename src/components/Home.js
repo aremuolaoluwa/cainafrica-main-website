@@ -342,7 +342,7 @@ const Home = (props) => {
             {/* <!-- Third item in the first row --> */}
             <div className="section-third-item section-item">
                 <iframe
-                    width="560" height="315"src="https://www.youtube.com/embed/udveCSO-6ys?si=J5F6DacwZPbUGusH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    width="356.5" height="199.9"src="https://www.youtube.com/embed/udveCSO-6ys?si=J5F6DacwZPbUGusH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
                 <div className="news-content">
                     <div className="news-text">Our Founder and CEO, <b>May Asagba</b> was the youngest panelist at the Women In Leadership Event co-hosted by <b>Dr. Okonjo Ngozi Iweala and Meghan Markle, the Duchess of Sussex.</b></div>
@@ -364,7 +364,7 @@ const Home = (props) => {
             {/* <!-- Second item in the second row --> */}
             <div className="section-first-item section-item">
                 <iframe
-                    width="560" height="315" src="https://www.youtube.com/embed/XE9BF76RCc4?si=FuFyQYG2k6Kx3-kJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    width="356.5" height="199.9" src="https://www.youtube.com/embed/XE9BF76RCc4?si=FuFyQYG2k6Kx3-kJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
                 <div className="news-content">
                     <div className="news-text"><b>May Asagba,</b> CEO/Founder CAIN Africa, shares with <b>Channels TV and BBC</b> the organization’s ongoing efforts to make quality education accessible in underserved communities.</div>

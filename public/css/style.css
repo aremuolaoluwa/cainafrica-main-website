@@ -1641,38 +1641,34 @@ body, html {
 }
 
 .media-container {
-    height: 315px;
+    width: 356.5px;
+    height: 199.9px;
 }
 
 .img-media-container-0 {
-    width: 400px;
     background-image: url(../assets/images/award_news.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .img-media-container-1 {
-    width: 400px;
     background-image: url(../assets/images/10.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 15%;
     border: 1px solid #000;
 }
 
 .img-media-container-x {
-    width: 400px;
     background-image: url(../assets/images/newnow.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid #000;
 }
 
 .img-media-container-2 {
-    width: 400px;
     background-image: url(../assets/images/9.jpg);
     background-size: cover;
     background-repeat: no-repeat;
