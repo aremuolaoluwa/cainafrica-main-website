@@ -14,6 +14,12 @@ import B12 from "../images/resource_center/F7.jpg";
 import B13 from "../images/resource_center/F8.jpg";
 import B14 from "../images/resource_center/F9.jpg";
 import B15 from "../images/resource_center/F10.jpg";
+import B16 from "../images/resource_center/L1.jpg";
+import B17 from "../images/resource_center/L2.jpg";
+import B18 from "../images/resource_center/S1.jpg";
+import B19 from "../images/resource_center/S2.jpg";
+import B20 from "../images/resource_center/R1.jpg";
+import B21 from "../images/resource_center/R2.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -184,6 +190,54 @@ Demo4.defaultProps = {
     {
       src: `${B15}`,
       thumbnail: `${B15}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B16}`,
+      thumbnail: `${B16}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B17}`,
+      thumbnail: `${B17}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B18}`,
+      thumbnail: `${B18}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B19}`,
+      thumbnail: `${B19}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B20}`,
+      thumbnail: `${B20}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B21}`,
+      thumbnail: `${B21}`,
       thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture

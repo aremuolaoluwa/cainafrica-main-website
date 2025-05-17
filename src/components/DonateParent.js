@@ -201,8 +201,8 @@ const DonateParent = (props) => {
                             <span class="item-heading">Leave us a gift in your will
                             </span>
                             <p>
-                                <b>U.S.: Catering to Africans In Need</b><br />
-                                <b>Nigeria: CAIN Education Foundation</b>
+                                <b>U.S.A.: Catering to Africans In Need</b><br />
+                                <b>Nigeria: CAIN Educational Foundation</b>
                             </p>
                             <p id="content-text">You can create a lasting legacy by including a
                                 gift in your will to support our mission. This

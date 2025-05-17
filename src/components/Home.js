@@ -357,7 +357,7 @@ const Home = (props) => {
                 <div className="media-container img-media-container-x"></div>
                 <div className="news-content">
                     <div className="news-heading">CAIN Africa’s CEO Selected for The NewNow Young Leaders, 2025 Cohort.</div>
-                    <div className="news-text">May Asagba is named as one of ten trailblazing, impactful leaders from the Global South selected for the prestigious Fellowship to shift the paradigm ofor how leaders worldwide drive change through system thinkimg and collective action.</div>
+                    <div className="news-text">May Asagba has been named one of ten trailblazing, impactful leaders from the Global South selected for the prestigious fellowship, an initiative aimed at reshaping how leaders around the world drive change through systems thinking and collective action.</div>
                     <div className="news-link"><a href="https://www.oneyoungworld.com/thenewnow" target="_blank">Read More</a></div>
                 </div>
             </div>
