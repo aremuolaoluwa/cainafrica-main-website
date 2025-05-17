@@ -22,7 +22,7 @@ const InnerFooterBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 11rem;
+  // height: 11rem;
   width: 100%;
   background-color: #202020;
   // border: 1px solid black;
@@ -129,6 +129,13 @@ const Footer = () => {
                 src="https://img.icons8.com/color/35/000000/whatsapp--v1.png"
                 style={{ cursor: "pointer" }}
                 alt="whatsapp-icon"
+              />
+            </a>
+            <a href="https://www.tiktok.com/@cain_africa" target="_blank" rel="noopener noreferrer">
+              <img
+                  src="https://img.icons8.com/color-glass/40/tiktok.png"
+                style={{ cursor: "pointer", marginLeft: "5px" }}
+                alt="tiktok-icon"
               />
             </a>
           </div>
