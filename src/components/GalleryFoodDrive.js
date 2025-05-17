@@ -9,7 +9,7 @@ import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
 // import B3 from "../images/Gallery/CAREER/B (3).jpg";
 // import B4 from "../images/Gallery/CAREER/B (4).jpg";
 // import B5 from "../images/Gallery/CAREER/B (5).jpg";
-import B6 from "../images/Gallery/FD1.png";
+// import B6 from "../images/Gallery/FD1.png";
 import B7 from "../images/Gallery/FD2.png";
 import B8 from "../images/Gallery/FD3.png";
 import B9 from "../images/Gallery/FD4.png";
