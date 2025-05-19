@@ -24,7 +24,7 @@ const InnerFooterBox = styled.div`
   align-items: center;
   // height: 11rem;
   width: 100%;
-  background-color: #202020;
+  // background-color: #202020;
   // border: 1px solid black;
   @media (max-width: 768px) {
     height: 24rem;

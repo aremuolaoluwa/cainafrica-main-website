@@ -1465,6 +1465,24 @@ body, html {
     background-position: center;
 }
 
+@media (max-width: 768px){
+    .award-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .award-heading-outer {
+        width: 100%;
+    }
+
+    .award-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* Award section ends */
 
 /* Gift section starts here */
